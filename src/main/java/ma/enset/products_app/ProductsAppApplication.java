@@ -36,7 +36,7 @@ public class ProductsAppApplication {
 			System.out.println("=== RECHERCHE 'laptop' ===");
 			repo.findByNameContainingIgnoreCase("laptop").forEach(System.out::println);
 
-			// 5. Mettre à jour
+			// 5. Mettre à jourx
 			System.out.println("=== MISE A JOUR ===");
 			Product p = repo.findById(1L).get();
 			p.setPrice(10500);
